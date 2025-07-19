@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;  /* Space between logo and the rest of the content */
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.countdown {
+    font-size: 24px;
+    color: #ff6600;
+}
+
+.animation img {
+    max-width: 100px;
+    margin: 20px 0;
+}
+
+.social a {
+    color: #ff6600;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 30px; /* Adjust padding on smaller screens */
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .content {
+        padding: 30px;
+    }
+
+    .logo img {
+        max-width: 200px;  /* Adjust logo size on smaller screens */
+    }
+
+    h1 {
+        font-size: 28px;  /* Adjust heading size on smaller screens */
+    }
+
+    p {
+        font-size: 16px;  /* Adjust text size */
+    }
+
+    .countdown {
+        font-size: 20px;  /* Adjust countdown size */
+    }
+
+    .animation img {
+        max-width: 80px;  /* Adjust the size of the loading gif */
+    }
+
+    .social a {
+        font-size: 14px;  /* Make social links smaller */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .logo img {
+        max-width: 150px;  /* Further reduce logo size on very small screens */
+    }
+
+    h1 {
+        font-size: 24px;  /* Adjust heading size for very small screens */
+    }
+
+    p {
+        font-size: 14px;  /* Adjust text size for mobile */
+    }
+
+    .countdown {
+        font-size: 18px;  /* Adjust countdown font size */
+    }
+
+    .animation img {
+        max-width: 60px;  /* Make loading gif smaller on mobile */
+    }
+
+    .social a {
+        font-size: 12px;  /* Smaller font size for social links */
+    }
+}
