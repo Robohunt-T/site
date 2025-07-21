@@ -2,7 +2,7 @@
 const timerElement = document.getElementById("timer");
 
 // Set the date we're counting down to
-const maintenanceEnd = new Date().getTime() + 3600 * 1000; // Example: 1 hour from now
+const maintenanceEnd = new Date().getTime() + 3600 * 1000* 12; // Example: 1 hour from now
 
 // Update the countdown every 1 second
 const x = setInterval(function() {
